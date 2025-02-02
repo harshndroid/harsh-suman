@@ -4,10 +4,10 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import Pointer from "../Pointer";
 
 function Home2() {
   return (
@@ -19,37 +19,23 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              <div style={{display:"flex", alignItems:"center"}}><div><Pointer/></div>  <div>I’m a React developer with 3.5 years of work experience</div></div>
               <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
+              <div style={{display:"flex", alignItems:"center"}}><div><Pointer/></div>  <div>I have solved complex product use cases using strong foundation in <b className="purple">React</b> and <b className="purple"> Javascript</b></div></div>
               <br />
+              <div style={{display:"flex", alignItems:"center"}}><div><Pointer/></div>  <div>I'm flexible in <b className="purple">adapting</b> and changing role based on any JavaScript framework or library</div></div>
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+             <div style={{display:"flex", alignItems:"center"}}><div><Pointer/></div>  <div> Whenever I get time, I also apply my <b className="purple">backend</b> knowledge for developing fullstack applications
+              using <b className="purple">Node.js</b> and{" "}
                 <b className="purple">
-                  Blockchain.
+                  MongoDB{" "}
+                </b>
+                to{" "}
+              <i><b>
+                 turn my ideas into products
                 </b>
               </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              </div></div>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -60,14 +46,14 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1 style={{fontStyle:"italic", fontWeight:"bold", fontSize: 18}}>find me on</h1>
             <p>
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/harshndroid"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,17 +63,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://linkedin.com/in/harsh-suman/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +73,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://instagram.com/playwithkoki"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

@@ -1,68 +1,42 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
-} from "react-icons/di";
-import {
-  SiRedis,
-  SiFirebase,
+  SiJavascript,
+  SiReact,
+  SiNodedotjs,
+  SiMongodb,
+  SiGit,
   SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
+  SiTypescript
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+import { DiAngularSimple } from "react-icons/di";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <SiJavascript color="#ffff00" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <SiReact color='#58c4dc' />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <SiNodedotjs color="#189a2e" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiMongodb color="#008000" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <SiTypescript color="#719af4" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <SiGit color="#f14e32" />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+       <Col xs={4} md={2} className="tech-icons">
+        <DiAngularSimple color="#b52e31" />
       </Col>
     </Row>
   );

@@ -9,32 +9,31 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Harsh Suman </span>
-            from <span className="purple"> Bengaluru, India.</span>
+            from <span> Bengaluru, India.</span>
             <br />
-            I am currently working as an SDE 2 at Chalo.
+            I am currently working at Chalo as an <span className="purple">SDE II</span>.
             <br />
-            I have completed B.Tech. in Information Technology from IIIT
-            Una.
+            I have completed B.Tech. in <span className="purple">Information Technology</span> from IIIT
+            Una in 2021.
             <br />
             <br />
             Along with coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Solo travelling and exploring hills
+              🗺️ Solo travelling
             </li>
             <li className="about-activity">
-              <ImPointRight /> Playing instruments
+              🎶 Playing instruments
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              🏔️ Exploring hills
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "I'm always open to new ideas and transforming it into products !"
           </p>
-          <footer className="blockquote-footer">Harsh</footer>
         </blockquote>
       </Card.Body>
     </Card>

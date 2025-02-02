@@ -2,12 +2,9 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
+import StackOverflow  from "../Assets/so.png";
 import {
-  AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
@@ -90,24 +87,15 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
+                href="https://stackoverflow.com/users/14033954/harsh"
                 target="_blank"
                 rel="noreferrer"
+                style={{marginTop: 1}}
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <img alt="stack" src={StackOverflow} style={{marginBottom: 5, height: 25, width: 30, }} /> <span style={{marginTop: 1}}>Stackoverflow</span>
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item className="fork-btn">
-              <Button
-                href="https://github.com/harshndroid/harsh-suman"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
-              </Button>
-            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>
